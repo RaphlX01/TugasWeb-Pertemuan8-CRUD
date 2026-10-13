@@ -11,25 +11,8 @@ Aplikasi CRUD Inventaris sederhana menggunakan PHP Native dengan **PDO Singleton
 5. Akses di browser:
 http://localhost/web_8/public/
 
-text
 
-## Struktur Folder
-web_8/
-├── config/
-│ └── database.php # PDO Singleton (koneksi database)
-├── css/
-│ └── style.css # Styling halaman (Bootstrap + custom)
-├── public/
-│ ├── functions.php # Fungsi bantu (sanitize, flash, redirect)
-│ ├── index.php # List produk + search + pagination
-│ ├── create.php # Form tambah produk
-│ ├── edit.php # Form edit produk
-│ ├── delete.php # Proses hapus + transaction + log
-│ └── export.php # Export laporan ke CSV
-├── README.md
-└── schema.sql # DDL + seed data
 
-text
 
 ## Struktur Database
 
